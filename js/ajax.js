@@ -3,7 +3,7 @@ $(document).ready(function(){
         //Phonegap ready
         onDeviceReady();
     });
-
+    alert("hoba");
     var output = $('#output');
     var url = 'http://lifeafterracing.ustrotting.com/landmarks.cfc?method=remoteGetLandMarks&callback=?';
 	
@@ -14,7 +14,8 @@ $(document).ready(function(){
 		contentType: "application/json",
 		dataType: 'jsonp',
 		success: function(data) {
-			$.each(data, function(i,item){ 
+		    alert(data);
+		    $.each(data, function (i, item) {
                 var landmark = '<h1>'+item.NAME+'</h1>'
                 + '<p>'+item.LATITUDE+'<br>'
                 + item.LONGITUDE+'</p>';
@@ -22,7 +23,8 @@ $(document).ready(function(){
 			});
 		},
 		error: function(e) {
-			console.log(e.message);
+		    console.log(e.message);
+		    alert("ajax hata");
 		}
 	});
 });
