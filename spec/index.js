@@ -27,7 +27,7 @@ describe('app', function() {
 
             waitsFor(function() {
                 return (app.onDeviceReady.calls.length > 0);
-            }, 'onDeviceReady should be called once', 500);
+            }, 'onDeviceReady should be called once', 100);
 
             runs(function() {
                 expect(app.onDeviceReady).toHaveBeenCalled();
