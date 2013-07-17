@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id = "com.ustrotting.phonegapajax"
+	version = "0.0.1"
+	versionCode = "1">
+	
+	<name>PhoneGap AJAX Example</name>
+	
+	<description>An example of PhoneGap using AJAX</description>
+	
+	<author email="derekbrigner@gmail.com">
+		Derek Brigner
+	</author>
+	
+	<preference name="phonegap-version" value="2.7.0" />
+	<preference name="orientation" value="default" />
+	<preference name="target-device" value="universal" />
+	<preference name="permissions" value="none"/>
+	
+	<icon src="icon.png" />
+	<icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="res/icon/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+    
+	<gap:splash src="res/screen/android/screen-ldpi-portrait.png" gap:platform="android" gap:density="ldpi" />
+	<gap:splash src="res/screen/android/screen-mdpi-portrait.png" gap:platform="android" gap:density="mdpi" />
+	<gap:splash src="res/screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:density="hdpi" />
+	<gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
+	
+	<access origin="http://lifeafterracing.ustrotting.com/" subdomains="true" />
+	
+</widget>
