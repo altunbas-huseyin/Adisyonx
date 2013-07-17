@@ -14,6 +14,7 @@ $(document).ready(function(){
 		contentType: "application/json",
 		dataType: 'jsonp',
 		success: function(data) {
+			alert(data);
 			$.each(data, function(i,item){ 
                 var landmark = '<h1>'+item.NAME+'</h1>'
                 + '<p>'+item.LATITUDE+'<br>'
