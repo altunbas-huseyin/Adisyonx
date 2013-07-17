@@ -5,8 +5,8 @@ $(document).ready(function(){
     });
 
     var output = $('#output');
-    var url = 'http://lifeafterracing.ustrotting.com/landmarks.cfc?method=remoteGetLandMarks&callback=?';
-	
+    //var url = 'http://lifeafterracing.ustrotting.com/landmarks.cfc?method=remoteGetLandMarks&callback=?';
+	var url='https://dl.dropboxusercontent.com/u/101221652/demo.json';
 	$.ajax({
 		type: 'GET',
 		url: url,
