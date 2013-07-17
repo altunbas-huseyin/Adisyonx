@@ -27,3 +27,10 @@ $(document).ready(function(){
 		}
 	});
 });
+
+
+
+function alert_yap(isim)
+{
+	alert(isim)
+}
