@@ -5,12 +5,12 @@
 	version = "0.0.1"
 	versionCode = "1">
 	
-	<name>PhoneGap AJAX Example</name>
+	<name>Adisyonx</name>
 	
-	<description>An example of PhoneGap using AJAX</description>
+	<description>Adisyonx.com restaurant otmasyon sistemi</description>
 	
-	<author email="derekbrigner@gmail.com">
-		Derek Brigner
+	<author email="destek@adisyonx.com">
+		Adisyonx Destek
 	</author>
 	
 	<preference name="phonegap-version" value="2.7.0" />
